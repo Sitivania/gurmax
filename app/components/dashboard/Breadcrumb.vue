@@ -15,7 +15,7 @@ const { title } = useAppConfig()
     <BreadcrumbList>
       <BreadcrumbItem>
         <BreadcrumbLink href="/">
-          {{ title }}
+         ssss
         </BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbSeparator />
@@ -29,7 +29,7 @@ const { title } = useAppConfig()
       </BreadcrumbItem>
       <BreadcrumbSeparator />
       <BreadcrumbItem>
-        <BreadcrumbPage>{{ title }}</BreadcrumbPage>
+        <BreadcrumbPage>sssss</BreadcrumbPage>
       </BreadcrumbItem>
     </BreadcrumbList>
 
