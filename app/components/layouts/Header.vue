@@ -21,11 +21,12 @@ const { title, github } = useAppConfig()
             <span
               class="flex items-center justify-center w-8 h-8 rounded-full"
             >
-              <img
-                src="/sink.png"
+              <!-- <img
+                src=""
                 :alt="title"
                 class="w-full h-full rounded-full"
-              >
+              > -->
+              <p>gurih</p>
             </span>
             <span class="mx-2">{{ title }}</span>
           </a>
