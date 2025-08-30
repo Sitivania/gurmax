@@ -26,9 +26,8 @@ const { title, github } = useAppConfig()
                 :alt="title"
                 class="w-full h-full rounded-full"
               > -->
-              <p>gurih</p>
             </span>
-            <span class="mx-2">{{ title }}</span>
+            <span class="mx-2">sssss</span>
           </a>
         </div>
 
@@ -54,7 +53,7 @@ const { title, github } = useAppConfig()
                   class="w-full h-full rounded-full"
                 >
               </span>
-              <span class="mx-2">{{ title }}</span>
+              <span class="mx-2">sss</span>
             </a>
             <div class="w-auto mx-4" />
             <div
@@ -65,7 +64,7 @@ const { title, github } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
-              <!-- <a
+              <a
                 :href="github"
                 target="_blank"
                 title="Github"
@@ -74,7 +73,7 @@ const { title, github } = useAppConfig()
                 <GitHubIcon
                   class="w-5 h-5 mr-1"
                 />
-                GitHub</a> -->
+                GitHub</a>
 
               <SwitchLanguage />
 
